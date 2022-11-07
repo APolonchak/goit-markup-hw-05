@@ -532,6 +532,8 @@ button {
 }
 .example-list .example-link {
   display: block;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .example-list .example-link:hover,
 .example-list .example-link:focus {
@@ -555,6 +557,7 @@ button {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
+
 .example-list .title {
   margin-bottom: 4px;
 
